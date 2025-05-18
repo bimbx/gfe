@@ -22,7 +22,7 @@ export default function Home() {
       <div className="navbar_component">
         <div className="navbar_container">
           <Link href="#Inicio" className="navbar_logo-link">
-            <Image src="/logo.svg" alt="Logo de GFE Marketing" width={349} height={49} className="navbar_logo" />
+            <Image src="/logo.svg" alt="Logo de GFE Marketing" className="w-auto h-2.5rem" />
           </Link>
           <nav className="navbar_menu">
             <div className="navbar_menu-dropdown">
