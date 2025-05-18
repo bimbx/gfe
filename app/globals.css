@@ -5,7 +5,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
 }
-
+html,body {
+  overscroll-behavior: none;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
