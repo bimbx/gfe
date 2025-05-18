@@ -1,4 +1,4 @@
-@import "tailwindcss/preflight";
+@import "tailwindcss";
 @tailwind utilities;
 
 :root {
@@ -507,9 +507,13 @@ h3 {
   gap: 1rem;
 }
 
+.services_img-wrap {
+  position: relative;
+  min-height: 10rem;
+}
+
 .services_link-block {
   position: relative;
-  padding: 2rem;
   border-radius: 1rem;
   background-color: white;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -543,7 +547,7 @@ h3 {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60%;
+  height: 100%;
   overflow: hidden;
   border-radius: 0 0 1rem 1rem;
 }

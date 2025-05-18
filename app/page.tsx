@@ -22,7 +22,7 @@ export default function Home() {
       <div className="navbar_component">
         <div className="navbar_container">
           <Link href="#Inicio" className="navbar_logo-link">
-            <Image src="/logo.svg" alt="Logo de GFE Marketing" className="w-auto h-2.5rem" />
+            <Image src="/logo.svg" alt="Logo de GFE Marketing" width={200} height={40} className="w-auto h-2.5rem" />
           </Link>
           <nav className="navbar_menu">
             <div className="navbar_menu-dropdown">
@@ -182,21 +182,21 @@ export default function Home() {
                   </div>
                   <div className="header_image-wrapper hide-tablet">
                     <Image
-                      src="/placeholder.svg?height=400&width=400"
+                      src="/gfe-site-web.jpg?height=400&width=400"
                       alt="diseño de sitio web"
                       width={400}
                       height={400}
                       className="header_sample-image is-first"
                     />
                     <Image
-                      src="/placeholder.svg?height=320&width=320"
+                      src="/gfe-brand-design.jpg?height=320&width=320"
                       alt="diseño de marca"
                       width={320}
                       height={320}
                       className="header_sample-image is-second"
                     />
                     <Image
-                      src="/placeholder.svg?height=400&width=400"
+                      src="/gfe-ui.jpg?height=400&width=400"
                       alt="diseño de UI de aplicación"
                       width={400}
                       height={400}
@@ -285,58 +285,74 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="services_component">
-                  <Link href="#" className="services_link-block">
-                    <div className="services_link-text-small">01</div>
-                    <h3 className="services_link-text">Desarrollo Web y Tiendas Online</h3>
-                    <div className="services_link-image-wrapper">
-                      <Image
-                        src="/placeholder.svg?height=300&width=400"
-                        alt="Desarrollo Web y Tiendas Online"
-                        width={400}
-                        height={300}
-                        className="services_link-image"
-                      />
+                    <div className="service_wrap">
+                      <div className="p-4">
+                        <div className="services_link-text-small">01</div>
+                        <h3 className="services_link-text">Desarrollo Web y Tiendas Online</h3>
+                      </div>
+                      <div className="services_img-wrap">
+                        <div className="services_link-image-wrapper">
+                          <Image
+                            src="/gfe-web-dev.jpg?height=300&width=400"
+                            alt="Desarrollo Web y Tiendas Online"
+                            width={400}
+                            height={300}
+                            className="services_link-image"
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </Link>
-                  <Link href="#" className="services_link-block">
-                    <div className="services_link-text-small">02</div>
-                    <h3 className="services_link-text">Automatización con Inteligencia Artificial</h3>
-                    <div className="services_link-image-wrapper">
-                      <Image
-                        src="/placeholder.svg?height=300&width=400"
-                        alt="Automatización con Inteligencia Artificial"
-                        width={400}
-                        height={300}
-                        className="services_link-image"
-                      />
+                    <div className="service_wrap">
+                      <div className="p-4">
+                        <div className="services_link-text-small">02</div>
+                        <h3 className="services_link-text">Automatización con IA</h3>
+                      </div>
+                      <div className="services_img-wrap">
+                        <div className="services_link-image-wrapper">
+                          <Image
+                            src="/gfe-digital-ai.jpg?height=300&width=400"
+                            alt="Automatización con Inteligencia Artificial"
+                            width={400}
+                            height={300}
+                            className="services_link-image"
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </Link>
-                  <Link href="#" className="services_link-block">
-                    <div className="services_link-text-small">03</div>
-                    <h3 className="services_link-text">Publicidad Digital (Paid Media)</h3>
-                    <div className="services_link-image-wrapper">
-                      <Image
-                        src="/placeholder.svg?height=300&width=400"
-                        alt="Publicidad Digital (Paid Media)"
-                        width={400}
-                        height={300}
-                        className="services_link-image"
-                      />
+                    <div className="service_wrap">
+                      <div className="p-4">
+                        <div className="services_link-text-small">03</div>
+                        <h3 className="services_link-text">Publicidad Digital (Paid Media)</h3>
+                      </div>
+                      <div className="services_img-wrap">
+                        <div className="services_link-image-wrapper">
+                          <Image
+                            src="/gfe-ads.jpeg?height=300&width=400"
+                            alt="Publicidad Digital (Paid Media)"
+                            width={400}
+                            height={300}
+                            className="services_link-image"
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </Link>
-                  <Link href="#" className="services_link-block">
-                    <div className="services_link-text-small">04</div>
-                    <h3 className="services_link-text">Marketing en Redes Sociales</h3>
-                    <div className="services_link-image-wrapper">
-                      <Image
-                        src="/placeholder.svg?height=300&width=400"
-                        alt="Marketing en Redes Sociales"
-                        width={400}
-                        height={300}
-                        className="services_link-image"
-                      />
+                    <div className="service_wrap">
+                      <div className="p-4">
+                        <div className="services_link-text-small">04</div>
+                        <h3 className="services_link-text">Marketing en Redes Sociales</h3>
+                      </div>
+                      <div className="services_img-wrap">
+                        <div className="services_link-image-wrapper">
+                          <Image
+                            src="/gfe-mkt.jpg?height=300&width=400"
+                            alt="Marketing en Redes Sociales"
+                            width={400}
+                            height={300}
+                            className="services_link-image"
+                          />
+                        </div>
+                      </div>
                     </div>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -385,7 +401,7 @@ export default function Home() {
                       </div>
                       <div className="how-it-works_image-wrapper">
                         <Image
-                          src="/placeholder.svg?height=300&width=400"
+                          src="/gfe-paso1.jpg?height=300&width=400"
                           alt="Estrategia"
                           width={400}
                           height={300}
@@ -411,7 +427,7 @@ export default function Home() {
                       </div>
                       <div className="how-it-works_image-wrapper">
                         <Image
-                          src="/placeholder.svg?height=300&width=400"
+                          src="/gfe-paso2.jpg?height=300&width=400"
                           alt="Implementación"
                           width={400}
                           height={300}
@@ -437,7 +453,7 @@ export default function Home() {
                       </div>
                       <div className="how-it-works_image-wrapper">
                         <Image
-                          src="/placeholder.svg?height=300&width=400"
+                          src="/gfe-paso3.jpg?height=300&width=400"
                           alt="Análisis"
                           width={400}
                           height={300}
@@ -463,7 +479,7 @@ export default function Home() {
                       </div>
                       <div className="how-it-works_image-wrapper">
                         <Image
-                          src="/placeholder.svg?height=300&width=400"
+                          src="/gfe-paso4.jpg?height=300&width=400"
                           alt="Optimización"
                           width={400}
                           height={300}
