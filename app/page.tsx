@@ -305,7 +305,7 @@ export default function Home() {
                     <div className="service_wrap">
                       <div className="p-4">
                         <div className="services_link-text-small">02</div>
-                        <h3 className="services_link-text">Automatización con IA</h3>
+                        <h3 className="services_link-text">Automatización con Inteligencia Artificial</h3>
                       </div>
                       <div className="services_img-wrap">
                         <div className="services_link-image-wrapper">
