@@ -815,7 +815,7 @@ export default function Home() {
                  calLink="sebasbimbi/premium"
                  style={{width:"100%",height:"100%",overflow:"scroll"}}
                  config={{"layout":"month_view"}}
-                 />;
+                 />
               </div>
             </div>
           </div>
