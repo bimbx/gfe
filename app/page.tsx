@@ -698,9 +698,9 @@ export default function Home() {
                     </div>
                     <div className="margin-bottom margin-small">
                       <div className="text-size-medium">
-                        "Their adept grasp of the intricacies of the regional market was laudable. It is with profound
+                        &ldquo;Their adept grasp of the intricacies of the regional market was laudable. It is with profound
                         gratitude that I acknowledge their invaluable contribution to our mission and unequivocally
-                        endorse their exceptional service."
+                        endorse their exceptional service.&rdquo;
                       </div>
                     </div>
                     <div className="testimonial_client">
@@ -727,9 +727,9 @@ export default function Home() {
                     </div>
                     <div className="margin-bottom margin-small">
                       <div className="text-size-medium">
-                        "MPV Fight, escuela de artes marciales personalizadas. Se logró fidelizar a los clientes nuevos
+                        &ldquo;MPV Fight, escuela de artes marciales personalizadas. Se logró fidelizar a los clientes nuevos
                         logrando mantener 20 clientes frecuentes. Se implementó la optimización en anuncios
-                        publicitarios creando videos/reels nuevos con tendencias."
+                        publicitarios creando videos/reels nuevos con tendencias.&rdquo;
                       </div>
                     </div>
                     <div className="testimonial_client">
@@ -756,9 +756,9 @@ export default function Home() {
                     </div>
                     <div className="margin-bottom margin-small">
                       <div className="text-size-medium">
-                        "Sonrire Odontología estética, incrementó sus ventas con 400% de ROAS con anuncios publicitarios
+                        &ldquo;Sonrire Odontología estética, incrementó sus ventas con 400% de ROAS con anuncios publicitarios
                         en Meta. Se desarrolló una estrategia de performance growth captando de clientes nuevos e
-                        incrementando las ventas por servicio de estética dental."
+                        incrementando las ventas por servicio de estética dental.&rdquo;
                       </div>
                     </div>
                     <div className="testimonial_client">
