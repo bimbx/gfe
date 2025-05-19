@@ -285,7 +285,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="services_component">
-                    <div className="service_wrap">
+                    <div className="services_wrap">
                       <div className="p-4">
                         <div className="services_link-text-small">01</div>
                         <h3 className="services_link-text">Desarrollo Web y Tiendas Online</h3>
@@ -302,7 +302,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="service_wrap">
+                    <div className="services_wrap">
                       <div className="p-4">
                         <div className="services_link-text-small">02</div>
                         <h3 className="services_link-text">Automatización con Inteligencia Artificial</h3>
@@ -319,7 +319,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="service_wrap">
+                    <div className="services_wrap">
                       <div className="p-4">
                         <div className="services_link-text-small">03</div>
                         <h3 className="services_link-text">Publicidad Digital (Paid Media)</h3>
@@ -336,7 +336,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="service_wrap">
+                    <div className="services_wrap">
                       <div className="p-4">
                         <div className="services_link-text-small">04</div>
                         <h3 className="services_link-text">Marketing en Redes Sociales</h3>

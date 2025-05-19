@@ -510,7 +510,11 @@ h3 {
 }
 
 .services_img-wrap {
+  position: relative;
   min-height: 10rem;
+}
+
+.services_wrap {
   position: relative;
   border-radius: 1rem;
   background-color: white;
