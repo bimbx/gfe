@@ -136,35 +136,35 @@ export default function Home() {
                     <div className="margin-top margin-medium">
                       <div className="header_talents-image-wrapper">
                         <Image
-                          src="/placeholder.svg?height=60&width=60"
+                          src="/gfe-h-1.jpg?height=60&width=60"
                           alt="persona 1"
                           width={60}
                           height={60}
                           className="header_talents-image"
                         />
                         <Image
-                          src="/placeholder.svg?height=60&width=60"
+                          src="/gfe-h-2.jpg?height=60&width=60"
                           alt="persona 2"
                           width={60}
                           height={60}
                           className="header_talents-image"
                         />
                         <Image
-                          src="/placeholder.svg?height=60&width=60"
+                          src="/gfe-h-3.jpg?height=60&width=60"
                           alt="persona 3"
                           width={60}
                           height={60}
                           className="header_talents-image"
                         />
                         <Image
-                          src="/placeholder.svg?height=60&width=60"
+                          src="/gfe-h-4.jpg?height=60&width=60"
                           alt="persona 4"
                           width={60}
                           height={60}
                           className="header_talents-image"
                         />
                         <Image
-                          src="/placeholder.svg?height=60&width=60"
+                          src="/gfe-h-5.jpg?height=60&width=60"
                           alt="persona 5"
                           width={60}
                           height={60}
